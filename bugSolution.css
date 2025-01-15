@@ -1,0 +1,11 @@
+/* bug.css */
+.myElement {
+  width: 10pxx; /* Invalid: extra 'x' */
+  background-color: redd;
+}
+
+/* bugSolution.css */
+.myElement {
+  width: 10px; /* Corrected width value */
+  background-color: red; /* Corrected color value */
+}
